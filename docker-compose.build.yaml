@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  camelion_demo_store_build:
+    build:
+      context: .
+      dockerfile: Dockerfile.build
+    ports:
+      - "80:80"
+    env_file:
+      - ./.env
