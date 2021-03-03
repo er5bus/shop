@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { FormattedMessage } from 'react-intl'
 import { removeFromCart } from '../../../store/actions';
 import {checkoutRoute, myCartRoute} from '../../../routes/child-routes';
-import {getProductURL} from '../../../utils';
 
 class ShoppingCartModal extends Component {
 

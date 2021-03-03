@@ -5,7 +5,6 @@ import { FormattedMessage } from "react-intl";
 import { toast } from "react-toastify";
 import { AUTO_CLOSE } from "./../../../ui-helpers";
 import { addToCart } from "../../../store/actions";
-import { getProductURL } from "../../../utils";
 import { productRoute, checkoutRoute } from "../../../routes/child-routes";
 
 class QuickViewModal extends Component {

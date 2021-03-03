@@ -84,7 +84,7 @@ class Footer extends Component {
                 <p>
                   <FormattedMessage id="FOOTER.COPY_RIGHT" />
                   <i className='bx bx-copyright'></i>{currentYear} { " " }
-                  <a href="https://www.infinitymanagement.fr/" rel="noopener noreferrer" target="_blank"> Infinity Management</a> -
+                  <a href="https://www.infinitymanagement.fr/" rel="noopener noreferrer" target="_blank"> TekUp</a> -
                   <FormattedMessage id="FOOTER.ALL_RIGHT_RESERVED" />
                 </p>
               </div>

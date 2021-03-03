@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  camelion_demo_store_dev:
+  store_dev:
     build:
       context: .
     volumes:

@@ -52,8 +52,8 @@ export const PARTNERS = [
   }
 ]
 
-export const INSTAGRAM_LINK = "https://www.instagram.com/lacloserieofficiel/?hl=en"
-export const INSTAGRAM_LINK_TEXT = "Follow us on @lacloserieofficiel"
+export const INSTAGRAM_LINK = "https://www.instagram.com/page"
+export const INSTAGRAM_LINK_TEXT = "Follow us on @Katásti̱ma"
 export const INSTAGRAM_PIC = [
   {
     url: "/#",

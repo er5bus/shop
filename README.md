@@ -1,6 +1,4 @@
-# La closerie
-
-Camelion demo store
+# Shop
 
 ## Project Requirements:
 

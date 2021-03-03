@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  camelion_demo_store_build:
+  store_build:
     build:
       context: .
       dockerfile: Dockerfile.build

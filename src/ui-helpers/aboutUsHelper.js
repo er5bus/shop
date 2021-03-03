@@ -1,9 +1,9 @@
-export const PHONE = "+216 70 938 537"
+export const PHONE = "+216 00 000 000"
 export const ADDRESS = "ADDRESS"
-export const EMAIL = "lacloserie2@yahoo.fr"
+export const EMAIL = "address@domain.com"
 
-export const FB_LINK = "https://www.facebook.com/Lacloserietunis/"
-export const INSTAGRAM_LINK = "https://www.facebook.com/Lacloserietunis/"
-export const TWITTER_LINK = "https://www.facebook.com/Lacloserietunis/"
+export const FB_LINK = "https://www.facebook.com/page/"
+export const INSTAGRAM_LINK = "https://www.instagram.com/page/"
+export const TWITTER_LINK = "https://www.twitter.com/page/"
 
-export const RECIVER_MAIL = "trabelsii.firas@gmail.com"
+export const RECIVER_MAIL = "reciver@domain.com"

@@ -5,6 +5,7 @@ import { logout } from '../../../store/actions';
 //import {toAbsoluteUrl} from '../../../utils';
 import { FormattedMessage } from 'react-intl'
 import {myAccountRoute, loginRoute, homeRoute, myOrderRoute/*, myCartRoute*/} from '../../../routes/child-routes';
+import {toAbsoluteUrl} from '../../../utils';
 
 
 class TopHeader extends Component {
@@ -25,7 +26,7 @@ class TopHeader extends Component {
                 <ul className="header-contact-info">
                   <li><FormattedMessage id="WELECOM.TITLE" /></li>
 
-                  {/*<li>
+                  <li>
                     <div className="dropdown language-switcher d-inline-block">
                       <button className="dropdown-toggle" type="button">
                         <img src={toAbsoluteUrl("/media/images/france-flag.jpg")} alt="..." />
@@ -39,7 +40,7 @@ class TopHeader extends Component {
                         </a>
                       </div>
                     </div>
-                  </li>*/}
+                  </li>
                 </ul>
               </div>
 
@@ -51,18 +52,18 @@ class TopHeader extends Component {
                     </Link>
                   </li>*/}
                   { isAuthenticated &&
-                  <>
-                    <li>
-                      <Link to={myAccountRoute.path}>
-                        <i className='bx bxs-user'></i> <FormattedMessage id="MENU.MY_ACCOUNT" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to={myOrderRoute.path}>
-                        <i className='bx bxs-cart'></i> <FormattedMessage id="MENU.MY_ORDERS" />
-                      </Link>
-                    </li>
-                  </>
+                    <>
+                      <li>
+                        <Link to={myAccountRoute.path}>
+                          <i className='bx bxs-user'></i> <FormattedMessage id="MENU.MY_ACCOUNT" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={myOrderRoute.path}>
+                          <i className='bx bxs-cart'></i> <FormattedMessage id="MENU.MY_ORDERS" />
+                        </Link>
+                      </li>
+                    </>
                   }
                   <li>
                     {isAuthenticated ? (

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify'
-import { getProductURL } from '../../../utils';
+//import { getProductURL } from '../../../utils';
 import { addToCart } from './../../../store/actions'
 import { connect } from 'react-redux';
 import { FormattedMessage } from 'react-intl'

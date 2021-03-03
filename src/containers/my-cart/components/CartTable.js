@@ -5,7 +5,6 @@ import { toast } from 'react-toastify'
 import { FormattedMessage } from 'react-intl'
 import { removeFromCart, addQuantity, subtractQuantity } from '../../../store/actions';
 import {checkoutRoute, productRoute} from '../../../routes/child-routes';
-import {getProductURL} from '../../../utils';
 import { AUTO_CLOSE } from './../../../ui-helpers'
 
 class CartTable extends Component {
