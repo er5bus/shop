@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  camelion_demo_store_staging_front:
-    image: registry.gitlab.com/camelion-demo/camelion-demo-store:v1
+  shop_staging_front:
+    image: shop:v1
     env_file:
       - ./.env
     deploy:
