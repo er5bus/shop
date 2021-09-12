@@ -1,13 +1,13 @@
 {
-  "name": "demo-camelion-store-web",
+  "name": "Shop",
   "version": "0.0.1",
   "private": true,
   "author": {
-    "name": "Infinity managment"
+    "name": "Er5bus"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/camelion-demo/camelion-demo-store.git"
+    "url": "git@github.com:er5bus/shop.git"
   },
   "dependencies": {
     "axios": "^0.18.0",
